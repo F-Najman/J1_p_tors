@@ -13,7 +13,7 @@ Stein was already known for p <= 157, so these computations do not prove anythin
 
 | file | what it computes | log |
 |---|---|---|
-| `orders.m` | the order `c(p)` of the rational cuspidal subgroup and `#J_1(p)(F_2)` for all primes `11 <= p <= 139` | `logs/orders.log` |
+| `orders.m` | the order `c(p)` of the rational cuspidal subgroup and `#J_1(p)(F_2)` for all primes `11 <= p <= 139` (`T_2` on the sign `+1` cuspidal modular symbols, see the comments in the file) | `logs/orders.log` |
 | `two_rank.m` | `dim_{F_2} J_1(p)(F_2)[2]` for the 12 primes of Table 1 | `logs/two_rank.log` |
 | `congruence_module.m` | the 2-primary part of Ohta's congruence module, i.e. of the cokernel of the matrix `H` of Section 6 | `logs/congruence_module.log` |
 

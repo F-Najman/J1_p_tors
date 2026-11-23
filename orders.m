@@ -8,8 +8,11 @@
 // F = sum_{i=0}^{n-1} beta(g^i) x^i, g a generator of (Z/pZ)^*, and beta(+-a) := beta(a) for 1 <= a <= n.
 //
 // #J_1(p)(F_2) is computed with the Eichler-Shimura relation: it is the product, over the Galois
-// orbits of even Dirichlet characters e modulo p, of the norms of det(1 + 2 e(2) - T_2) on the
-// cuspidal modular symbols of weight 2 and character e.
+// orbits of even Dirichlet characters e modulo p, of the norms of det(1 + 2 e(2) - T_2) on
+// S_2(Gamma_0(p), e). We compute T_2 on the cuspidal subspace of the SIGN +1 quotient of the
+// modular symbols of weight 2 and character e (ModularSymbols(e, 2, 1)), which is isomorphic to
+// S_2(Gamma_0(p), e) as a Hecke module. The full (sign 0) space has twice the dimension and would
+// give the square of #J_1(p)(F_2), e.g. 25 instead of 5 for p = 11.
 
 SetColumns(0);
 SetMemoryLimit(40*10^9);
@@ -39,7 +42,7 @@ function NumPointsF2(p)
   for e0 in GaloisConjugacyRepresentatives(D) do
     if not IsEven(e0) then continue; end if;
     e := MinimalBaseRingCharacter(e0);
-    S := CuspidalSubspace(ModularSymbols(e, 2, 1));
+    S := CuspidalSubspace(ModularSymbols(e, 2, 1));     // sign +1, see above
     d := Dimension(S);
     if d eq 0 then continue; end if;
     K := BaseRing(S);
