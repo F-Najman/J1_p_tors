@@ -1,0 +1,14 @@
+p=17 2-part of coker(pH)=[ 8 ] v2(det(pH))=3
+p=29 2-part of coker(pH)=[ 4, 4, 4 ] v2(det(pH))=6
+p=31 2-part of coker(pH)=[ 2, 2 ] v2(det(pH))=2
+p=41 2-part of coker(pH)=[ 16 ] v2(det(pH))=4
+p=43 2-part of coker(pH)=[ 2, 2 ] v2(det(pH))=2
+p=73 2-part of coker(pH)=[ 2, 2, 2 ] v2(det(pH))=3
+p=89 2-part of coker(pH)=[ 2, 2, 2 ] v2(det(pH))=3
+p=97 2-part of coker(pH)=[ 16 ] v2(det(pH))=4
+p=109 2-part of coker(pH)=[ 4, 4 ] v2(det(pH))=4
+p=113 2-part of coker(pH)=[ 4, 4, 16, 16, 16, 16 ] v2(det(pH))=20
+p=127 2-part of coker(pH)=[ 2, 2, 2, 2, 2, 2, 2, 2 ] v2(det(pH))=8
+p=137 2-part of coker(pH)=[ 32 ] v2(det(pH))=5
+Claim 4 successfully verified
+Claim 5 successfully verified

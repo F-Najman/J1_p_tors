@@ -1,0 +1,13 @@
+p=17 genus=5 dim_F2 J1(p)(F2)[2]=1 (7.0E-2s)
+p=29 genus=22 dim_F2 J1(p)(F2)[2]=5 (6.0E-2s)
+p=31 genus=26 dim_F2 J1(p)(F2)[2]=2 (7.0E-2s)
+p=41 genus=51 dim_F2 J1(p)(F2)[2]=2 (0.3s)
+p=43 genus=57 dim_F2 J1(p)(F2)[2]=2 (0.3s)
+p=73 genus=187 dim_F2 J1(p)(F2)[2]=3 (6.5s)
+p=89 genus=287 dim_F2 J1(p)(F2)[2]=5 (21.4s)
+p=97 genus=345 dim_F2 J1(p)(F2)[2]=1 (38.7s)
+p=109 genus=442 dim_F2 J1(p)(F2)[2]=6 (77.2s)
+p=113 genus=477 dim_F2 J1(p)(F2)[2]=9 (99.8s)
+p=127 genus=610 dim_F2 J1(p)(F2)[2]=8 (211.2s)
+p=137 genus=715 dim_F2 J1(p)(F2)[2]=2 (333.5s)
+Claim 3 successfully verified
