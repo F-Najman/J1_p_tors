@@ -50,5 +50,6 @@ done with `magma -b P:=73 two_rank.m`, and a range of primes with
 `magma -b Pmin:=11 Pmax:=50 orders.m` (Claim 2 is only checked for the full range).
 
 The logs in `logs/` were produced with Magma V2.30-1 on the *Mordell* server at the Department of
-Mathematics, University of Zagreb (AMD EPYC 9175F, 384 GB of RAM). `congruence_module.m` takes a few
-seconds, `orders.m` a few minutes, and `two_rank.m` about 12 minutes (6 minutes for `p = 137`).
+Mathematics, University of Zagreb (AMD EPYC 9175F, 384 GB of RAM). `congruence_module.m` and `orders.m`
+take a few seconds of CPU time each, and `two_rank.m` about 13 minutes, of which about 6 minutes are
+for `p = 137` (the CPU times per prime are in the logs).
