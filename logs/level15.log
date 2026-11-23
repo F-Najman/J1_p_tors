@@ -1,0 +1,13 @@
+X_1(15): [ 1, 1, 1, 0, 0 ], Cremona label 15a8
+rank bounds 0 0, E(Q)_tors = [ 4 ], E(F_2) = [ 4 ], reduction mod 2 injective: true
+Claim 6 successfully verified
+X_0(15): Cremona label 15a1
+15a1: E(Q)_tors = [ 2, 4 ], E(F_2) = [ 4 ], reduction mod 2 injective: false
+15a2: E(Q)_tors = [ 2, 2 ], E(F_2) = [ 4 ], reduction mod 2 injective: false
+15a3: E(Q)_tors = [ 2, 4 ], E(F_2) = [ 4 ], reduction mod 2 injective: false
+15a4: E(Q)_tors = [ 8 ], E(F_2) = [ 4 ], reduction mod 2 injective: false
+15a5: E(Q)_tors = [ 2 ], E(F_2) = [ 4 ], reduction mod 2 injective: false
+15a6: E(Q)_tors = [ 2 ], E(F_2) = [ 4 ], reduction mod 2 injective: false
+15a7: E(Q)_tors = [ 4 ], E(F_2) = [ 4 ], reduction mod 2 injective: false
+15a8: E(Q)_tors = [ 4 ], E(F_2) = [ 4 ], reduction mod 2 injective: true
+Claim 7 successfully verified
